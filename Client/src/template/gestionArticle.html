@@ -1,0 +1,3 @@
+<ul>
+    <li class="liste-panier" *ngFor="let item of items">{{item.modele}} - qts: {{item.quantity}}<button class="bt-add" [routerLink]="['/', {outlets: {vueP: 'ajoutArticle/'+item.modele + '/' + item.prix}}]">+</button><button class="bt-delete" [routerLink]="['/', {outlets: {vueP: 'suppressionArticle/'+item.modele + '/' + item.prix}}]">-</button></li>
+</ul>

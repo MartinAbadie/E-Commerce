@@ -1,0 +1,10 @@
+<div id="result-container">
+    <div id="block-result">
+    <ul>
+        <li class="result" *ngFor="let item of items" id={{item.modele+item.prix}}><a [routerLink]="['/', {outlets: {vueP: 'ajoutArticle/'+item.modele + '/' + item.prix}}]">Marque : {{item.marque}} <br/> Modèle : {{item.modele}} <br/> Stockage : {{item.stockage}}Go <br/> Prix : {{item.prix}}€</a><br/></li>
+        <br/>
+    </ul>
+    </div>
+    <div id="arbre-result">
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<h2> {{titre}} </h2>
+<div id="menu">
+    <div id="content-menu">
+        <nav>
+            <h4 id="menu-title">Menu</h4>
+            Recherche par marque :
+            <br/>
+            <input type="text" placeholder="Marque..." (keyup)="setMarque(choixMarque.value)" value="" #choixMarque/>
+            <button class="bt-common" [routerLink]="['/', {outlets: {vueR: 'rechercheParMarque/'+marque}}]">Chercher</button>
+            <br/>
+            <br/> Recherche par type :
+            <br/>
+            <select id="type" (change)="setType(choixType.value)" #choixType>
+                <option value="" disabled selected>Type...</option>
+                <option>Tablette</option>
+                <option>Smartphone</option>
+                <option>Laptop</option>
+                <option>Desktop</option>
+            </select>
+            <button class="bt-common" [routerLink]="['/', {outlets: {vueR: 'rechercheParType/'+type}}]">Chercher</button>
+            <br/>
+            <br/> Recherche par prix :
+            <br/>
+            <p id="prix">Min :<input id="prix-min" type="number" (keyup)="setPrixMin(choixPrixMin.value)" value="0" #choixPrixMin min="0" max="20000" /> Max :<input id="prix-max" type="number" maxlength="5" (keyup)="setPrixMax(choixPrixMax.value)" value="20000" #choixPrixMax
+                    min="0" max="20000" /></p>
+            <button id="bt-prix" [routerLink]="['/', {outlets: {vueR: 'rechercheParPrix/'+prixMin+'/'+prixMax}}]">Chercher</button>
+            <br/>
+            <br/>
+        </nav>
+    </div>
+</div>
+<br/>
+<router-outlet name="vueR"></router-outlet>
+<footer> {{footer}} </footer>

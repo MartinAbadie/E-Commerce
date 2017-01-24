@@ -1,0 +1,9 @@
+<div id="panier">
+    <h4 id="panier-title">Panier</h4>
+    <div id="main-panier">
+        <div id="content-panier">
+            <router-outlet name="vueP"></router-outlet>
+        </div>
+    </div>
+    <button id="vider" [routerLink]="['/', {outlets: {vueP: 'vider'}}]">Vider</button>
+</div>

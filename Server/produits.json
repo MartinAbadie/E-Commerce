@@ -1,0 +1,23 @@
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 7", "prix": 769, "stockage": 32 ,"appreciation":1}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 7", "prix": 879, "stockage": 128 ,"appreciation":2}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 7", "prix": 989, "stockage": 256 ,"appreciation":3}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 7 Plus", "prix": 909, "stockage": 32 ,"appreciation":4}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 7 Plus", "prix": 1019, "stockage": 128 ,"appreciation":5}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 7 Plus", "prix": 1129, "stockage": 256 ,"appreciation":1}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone SE", "prix": 489, "stockage": 16 ,"appreciation":2}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone SE", "prix": 549, "stockage": 64 ,"appreciation":3}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 6S", "prix": 659, "stockage": 32 ,"appreciation":4}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 6S", "prix": 769, "stockage": 128 ,"appreciation":5}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 6S Plus", "prix": 769, "stockage": 32 ,"appreciation":1}
+{ "type": "Smartphone", "marque": "Apple", "modele": "iPhone 6S Plus", "prix": 879, "stockage": 128 ,"appreciation":2}
+{ "type": "Smartphone", "marque": "Samsung", "modele": "Galaxy S7", "prix": 599, "stockage": 32 ,"appreciation":3}
+{ "type": "Tablette", "marque": "Apple", "modele": "iPad Air 2", "prix": 439, "stockage": 32 ,"appreciation":4}
+{ "type": "Tablette", "marque": "Apple", "modele": "iPad Air 2", "prix": 549, "stockage": 128 ,"appreciation":5}
+{ "type": "Tablette", "marque": "Sony", "modele": "Xperia Z3", "prix": 199, "stockage": 16 ,"appreciation":1}
+{ "type": "Desktop", "marque": "HP", "modele": "Slimline Desktop 260 A135nf", "prix": 329, "stockage": 2000 ,"appreciation":2}
+{ "type": "Desktop", "marque": "Apple", "modele": "Mac Pro", "prix": 3399, "stockage": 256 ,"appreciation":3}
+{ "type": "Desktop", "marque": "Apple", "modele": "Mac Pro", "prix": 11079, "stockage": 1000 ,"appreciation":4}
+{ "type": "Laptop", "marque": "Asus", "modele": "ZENBOOK-3U-GS101T", "prix": 1499, "stockage": 512 ,"appreciation":5}
+{ "type": "Laptop", "marque": "Asus", "modele": "X751LAV-T4615T", "prix": 499, "stockage": 1024 ,"appreciation":1}
+{ "type": "Laptop", "marque": "Apple", "modele": "MacBook Air 13 pouces", "prix": 1099, "stockage": 128 ,"appreciation":2}
+{ "type": "Laptop", "marque": "Apple", "modele": "MacBook Pro 15 pouces", "prix": 2699, "stockage": 256 ,"appreciation":3}

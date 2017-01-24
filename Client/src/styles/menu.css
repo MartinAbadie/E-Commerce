@@ -1,0 +1,142 @@
+input[type=text],
+select {
+    width: 37%;
+    padding: 5px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px solid #ccc;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-color: #171717;
+    color: #adadad;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+
+#prix-min {
+    width: 55px;
+    padding: 5px 10px;
+    margin: 8px 8px 0px 8px;
+    display: inline-block;
+    border: 0px solid #ccc;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #171717;
+    color: #adadad;
+}
+
+#prix-max {
+    width: 55px;
+    padding: 5px 10px;
+    margin: 8px 8px 0px 8px;
+    display: inline-block;
+    border: 0px solid #ccc;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #171717;
+    color: #adadad;
+}
+
+
+/* Permet de ne pas afficher les flèches pour changer la valeur du input number */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bt-common {
+    width: 40%;
+    padding: 5px 15px;
+    margin: 8px 0px 0px 8px;
+    display: inline-block;
+    border: 0px solid #ccc;
+    border-radius: 11px;
+    box-sizing: border-box;
+    background-color: #171717;
+    color: #adadad;
+}
+
+.bt-common:active {
+    width: 40%;
+    padding: 5px 15px;
+    margin: 8px 0px 0px 8px;
+    display: inline-block;
+    border: 0px solid #ccc;
+    border-radius: 11px;
+    box-sizing: border-box;
+    background-color: #252525;
+    color: #808080;
+}
+
+#menu-title {
+    margin-left: 26%;
+    font-size: 24pt;
+    color: rgba(75, 75, 75, 0.75);
+    text-shadow: -1px -1px black, 0 -1px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+#prix {
+    font-size: 8pt;
+}
+
+#menu {
+    color: #c6cccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    float: left;
+    height: 100%;
+    background-image: url(img/bg_menu.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer {
+    position: absolute;
+    font-size: 8pt;
+    left: 44%;
+    bottom: 10px;
+    color: rgba(75, 75, 75, 0.75);
+}
+
+#bt-prix {
+    width: 40%;
+    padding: 5px 15px;
+    margin: 8px 0px 0px 8px;
+    border: 0px solid #ccc;
+    border-radius: 11px;
+    box-sizing: border-box;
+    background-color: #171717;
+    color: #adadad;
+    margin-left: 55px;
+}
+
+#bt-prix:active {
+    width: 40%;
+    padding: 5px 15px;
+    margin: 8px 0px 0px 8px;
+    border: 0px solid #ccc;
+    border-radius: 11px;
+    box-sizing: border-box;
+    background-color: #252525;
+    color: #808080;
+    margin-left: 50px;
+}
